@@ -8,6 +8,7 @@ const Demo = () => {
 function App() {
   return (
     <div className={styles.App}>
+      <button className="btn btn--primary">Primary</button>
       <Routes>
         <Route path="/" element={<Demo />} />
       </Routes>
