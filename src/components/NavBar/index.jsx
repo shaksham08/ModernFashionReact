@@ -8,41 +8,41 @@ const Navbar = () => {
     <header>
       <nav class="nav">
         <div>
-          <Link class="nav__brand" to="/">
+          <Link className="nav__brand" to="/">
             <img src={LogoPng} alt="modernFashion" />
           </Link>
         </div>
-        <div class="nav__links">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <Link class="nav__link" to="/">
+        <div className="nav__links">
+          <ul className="nav__list">
+            <li className="nav__item">
+              <Link className="nav__link" to="/">
                 Home
               </Link>
             </li>
-            <li class="nav__item">
-              <Link class="nav__link" aria-current="page" to="/products">
+            <li className="nav__item">
+              <Link className="nav__link" aria-current="page" to="/products">
                 Shop
               </Link>
             </li>
           </ul>
 
-          <ul class="nav__list">
-            <li class="nav__item">
-              <Link class="nav__link" to="/login">
+          <ul className="nav__list">
+            <li className="nav__item">
+              <Link className="nav__link" to="/login">
                 <span>Login</span>
-                <i class="ri-user-line"></i>
+                <i className="ri-user-line"></i>
               </Link>
             </li>
-            <li class="nav__item">
-              <Link class="nav__link" aria-current="page" to="/wishlist">
+            <li className="nav__item">
+              <Link className="nav__link" aria-current="page" to="/wishlist">
                 <span> WishList </span>
-                <i class="ri-heart-line"></i>
+                <i className="ri-heart-line"></i>
               </Link>
             </li>
-            <li class="nav__item">
-              <Link class="nav__link" to="/cart">
+            <li className="nav__item">
+              <Link className="nav__link" to="/cart">
                 <span>Cart</span>
-                <i class="ri-shopping-cart-2-line"></i>
+                <i className="ri-shopping-cart-2-line"></i>
               </Link>
             </li>
           </ul>
