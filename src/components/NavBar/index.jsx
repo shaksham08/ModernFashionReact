@@ -6,7 +6,7 @@ import LogoPng from "images/MFLOGOTEXT.png";
 const Navbar = () => {
   return (
     <header>
-      <nav class="nav">
+      <nav className="nav">
         <div>
           <Link className="nav__brand" to="/">
             <img src={LogoPng} alt="modernFashion" />
