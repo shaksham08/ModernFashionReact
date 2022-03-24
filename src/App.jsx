@@ -1,14 +1,14 @@
-import styles from "./App.module.less";
 import { Routes, Route } from "react-router-dom";
+import Navbar from "components/NavBar";
 
 const Demo = () => {
-  return <h1>Demo Component</h1>;
+  return <h1>home</h1>;
 };
 
 function App() {
   return (
-    <div className={styles.App}>
-      <button className="btn btn--primary">Primary</button>
+    <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Demo />} />
       </Routes>
