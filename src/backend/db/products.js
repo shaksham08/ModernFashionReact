@@ -12,6 +12,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
     price: 250,
     categoryName: "hats",
+    discount_percent: 10,
+    rating: 2,
   },
   {
     _id: uuid(),
@@ -19,6 +21,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
     price: 180,
     categoryName: "hats",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -26,6 +30,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
     price: 350,
     categoryName: "hats",
+    discount_percent: 10,
+    rating: 5,
   },
   {
     _id: uuid(),
@@ -33,6 +39,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
     price: 250,
     categoryName: "hats",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -40,6 +48,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
     price: 180,
     categoryName: "hats",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -47,6 +57,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
     price: 140,
     categoryName: "hats",
+    discount_percent: 10,
+    rating: 5,
   },
   {
     _id: uuid(),
@@ -54,6 +66,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
     price: 180,
     categoryName: "hats",
+    discount_percent: 10,
+    rating: 3,
   },
   {
     _id: uuid(),
@@ -61,6 +75,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
     price: 140,
     categoryName: "hats",
+    discount_percent: 10,
+    rating: 2,
   },
   {
     _id: uuid(),
@@ -68,6 +84,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
     price: 160,
     categoryName: "hats",
+    discount_percent: 10,
+    rating: 5,
   },
   {
     _id: uuid(),
@@ -75,6 +93,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
     price: 2200,
     categoryName: "sneakers",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -82,6 +102,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
     price: 2800,
     categoryName: "sneakers",
+    discount_percent: 10,
+    rating: 5,
   },
   {
     _id: uuid(),
@@ -89,6 +111,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
     price: 1100,
     categoryName: "sneakers",
+    discount_percent: 10,
+    rating: 3,
   },
   {
     _id: uuid(),
@@ -96,6 +120,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
     price: 1600,
     categoryName: "sneakers",
+    discount_percent: 10,
+    rating: 5,
   },
   {
     _id: uuid(),
@@ -103,6 +129,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
     price: 1600,
     categoryName: "sneakers",
+    discount_percent: 10,
+    rating: 2,
   },
   {
     _id: uuid(),
@@ -110,6 +138,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
     price: 1600,
     categoryName: "sneakers",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -117,6 +147,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
     price: 1900,
     categoryName: "sneakers",
+    discount_percent: 10,
+    rating: 5,
   },
   {
     _id: uuid(),
@@ -124,6 +156,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
     price: 2000,
     categoryName: "sneakers",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -131,6 +165,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
     price: 1250,
     categoryName: "jackets",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -138,6 +174,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
     price: 900,
     categoryName: "jackets",
+    discount_percent: 10,
+    rating: 5,
   },
   {
     _id: uuid(),
@@ -145,6 +183,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
     price: 900,
     categoryName: "jackets",
+    discount_percent: 10,
+    rating: 3,
   },
   {
     _id: uuid(),
@@ -152,6 +192,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
     price: 1650,
     categoryName: "jackets",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -159,6 +201,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
     price: 1850,
     categoryName: "jackets",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -166,6 +210,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
     price: 2500,
     categoryName: "womens",
+    discount_percent: 10,
+    rating: 5,
   },
   {
     _id: uuid(),
@@ -173,6 +219,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
     price: 2000,
     categoryName: "womens",
+    discount_percent: 10,
+    rating: 3,
   },
   {
     _id: uuid(),
@@ -180,6 +228,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
     price: 8000,
     categoryName: "womens",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -187,6 +237,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
     price: 8000,
     categoryName: "womens",
+    discount_percent: 10,
+    rating: 5,
   },
   {
     _id: uuid(),
@@ -194,6 +246,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
     price: 4500,
     categoryName: "womens",
+    discount_percent: 10,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -201,6 +255,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
     price: 13500,
     categoryName: "womens",
+    discount_percent: 20,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -208,6 +264,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
     price: 2000,
     categoryName: "womens",
+    discount_percent: 10,
+    rating: 3,
   },
   {
     _id: uuid(),
@@ -215,6 +273,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
     price: 3250,
     categoryName: "mens",
+    discount_percent: 25,
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -222,6 +282,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
     price: 2000,
     categoryName: "mens",
+    discount_percent: 10,
+    rating: 5,
   },
   {
     _id: uuid(),
@@ -229,6 +291,8 @@ export const products = [
     imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
     price: 2500,
     categoryName: "mens",
+    discount_percent: 13,
+    rating: 3,
   },
   {
     _id: uuid(),
@@ -236,13 +300,17 @@ export const products = [
     imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
     price: 2500,
     categoryName: "mens",
+    discount_percent: 15,
+    rating: 5,
   },
   {
     _id: uuid(),
     name: "Jean Long Sleeve",
     imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
     price: 4000,
+    discount_percent: 10,
     categoryName: "mens",
+    rating: 4,
   },
   {
     _id: uuid(),
@@ -250,5 +318,7 @@ export const products = [
     imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
     price: 2500,
     categoryName: "mens",
+    discount_percent: 10,
+    rating: 4,
   },
 ];
