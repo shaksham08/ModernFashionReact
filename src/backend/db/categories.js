@@ -20,7 +20,6 @@ export const categories = [
     categoryName: "sneakers",
     imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
     _id: uuid(),
-    linkUrl: "shop/sneakers",
   },
   {
     categoryName: "womens",
