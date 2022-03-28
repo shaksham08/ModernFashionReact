@@ -11,7 +11,6 @@ const Homepage = () => {
   const getCategories = async () => {
     try {
       const { data } = await axios.get("/api/categories");
-      console.log(data.categories);
       setCategories(data.categories);
     } catch (error) {
       console.log(error);
