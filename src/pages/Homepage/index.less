@@ -1,0 +1,105 @@
+main {
+  padding: 0 5rem;
+}
+
+.hero__container {
+  background: linear-gradient(
+      0deg,
+      var(--black-overlay--light),
+      var(--black-overlay--light)
+    ),
+    url(../../images/shopping.webp);
+  height: 60vh;
+  color: var(--white);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  object-fit: contain;
+}
+
+.hero__content {
+  margin-left: 10rem;
+}
+
+.hero__heading {
+  font-size: 10rem;
+}
+
+.hero__subHeading {
+  font-size: 3rem;
+  font-weight: 400;
+  display: inline-block;
+  color: var(--gray-light-secondary);
+  border-bottom: 0.5px solid var(--gray-medium-primary);
+}
+
+.hero__footer {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: var(--gray-medium-primary);
+}
+
+.category__card {
+  height: 24rem;
+  min-width: 30%;
+  position: relative;
+  cursor: pointer;
+}
+
+.category__card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category__card__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  height: 9rem;
+  padding: 0 2.5rem;
+  border: 1px solid var(--black-primary);
+  background-color: var(--white);
+  opacity: 0.8;
+}
+
+.category__card__content:hover {
+  opacity: 0.9;
+}
+
+.category__container {
+  gap: 2rem;
+}
+
+.category__card {
+  background-color: var(--black-primary);
+  flex: 1 1 auto;
+  border: 1px solid var(--black-primary);
+  padding: 0;
+  overflow: hidden;
+}
+
+.category__card img:hover {
+  transform: scale(1.1);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.card__large {
+  height: 38rem;
+}
+
+.category__card__title {
+  font-weight: bold;
+  margin: 0 6px 0;
+  font-size: 2.2rem;
+  color: var(--gray-dark-primary);
+}
+
+.category__card__subtitle {
+  font-weight: lighter;
+  font-size: 1.6rem;
+  color: var(--gray-dark-primary);
+}
