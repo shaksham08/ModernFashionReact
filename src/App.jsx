@@ -1,17 +1,16 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "components/NavBar";
-
-const Demo = () => {
-  return <h1>home</h1>;
-};
+import Footer from "components/Footer";
+import Homepage from "pages/Homepage";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Demo />} />
+        <Route path="/" element={<Homepage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
