@@ -4,6 +4,7 @@ import "./index.less";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { makeServer } from "./server";
+import { ProductContextProvider } from "context/ProductsContext/ProductContext";
 
 // Call make Server
 makeServer();
@@ -11,7 +12,9 @@ makeServer();
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <ProductContextProvider>
+        <App />
+      </ProductContextProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")

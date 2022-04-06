@@ -1,0 +1,71 @@
+  main{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main__container {
+    display: grid;
+    grid-template-columns: 25rem 1fr;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    padding: 0 0.5rem;
+    border-right: 1px solid var(--gray-light-secondary);
+  }
+  
+  .filters {
+    font-size: 1.6rem;
+    border-bottom: 1px solid var(--gray-light-secondary);
+  }
+  
+  .filters p:first-child {
+    font-weight: 600;
+  }
+  
+  .filters p:last-child {
+    font-weight: 400;
+  }
+  
+  .filter__price {
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: block;
+    border-bottom: 1px solid var(--gray-light-secondary);
+  }
+  
+  .filter__price input {
+    width: 100%;
+  }
+  
+  .filter__price__labels {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .filter__checkbox {
+    border-bottom: 1px solid var(--gray-light-secondary);
+  }
+  
+  .filter__checkbox p {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  .filter__checkbox__item {
+    font-size: 1.6rem;
+  }
+  
+  .filter__checkbox__item label {
+    margin-left: 1rem;
+  }
+  
+  .products {
+    gap: 2rem;
+  }
+  
+  .card {
+    box-shadow: 0px 0px 4px -1px var(--black-overlay--light);
+    -webkit-box-shadow: 0px 0px 4px -1px var(--black-overlay--light);
+    -moz-box-shadow: 0px 0px 4px -1px var(--black-overlay--light);
+  }
