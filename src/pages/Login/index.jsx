@@ -44,9 +44,9 @@ const Login = () => {
             </button>
             <span className="extra__line">
               <span>Don't have an account?</span>
-              <a href="#" onClick={() => navigate("/signUp")}>
+              <button href="#" onClick={() => navigate("/signUp")}>
                 Sign Up
-              </a>
+              </button>
             </span>
           </form>
         </div>

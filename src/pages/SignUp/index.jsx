@@ -49,14 +49,14 @@ const SignUp = () => {
             </button>
             <span className="extra__line">
               <span>Already have an account?</span>
-              <a
+              <button
                 href="#"
                 onClick={() => {
                   navigate("/login");
                 }}
               >
                 Sign In
-              </a>
+              </button>
             </span>
           </form>
         </div>
