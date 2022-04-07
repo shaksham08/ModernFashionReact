@@ -4,7 +4,7 @@ import "./Products.less";
 
 const ProductListing = () => {
   return (
-    <main>
+    <main className="main__products">
       <div className="main__container">
         <Filter />
         <Products />
