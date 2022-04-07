@@ -3,10 +3,13 @@ import { useProduct } from "context/ProductsContext/ProductContext";
 import { price } from "utils/Filter/filterFunctions";
 import { useWishList } from "context/WishlistContext/WishlistContext";
 import { WishlistAction } from "context/WishlistContext/WishlistActionTypes";
+import { useCart } from "context/CartContext/CartContext";
+import { cartActions } from "context/CartContext/CartActions";
 
 const Products = () => {
   const { products } = useProduct();
   const { wishListDispatch } = useWishList();
+  const { cartDispatch } = useCart();
 
   return (
     <div className="products p-4 d--flex flex--wrap justify__content--center">
@@ -26,7 +29,16 @@ const Products = () => {
             <p className="card__discount">({product.discount_percent}% off)</p>
           </div>
           <div className="card__buttons">
-            <button type="button" className="btn card__btn">
+            <button
+              onClick={() => {
+                cartDispatch({
+                  type: cartActions.ADD_ITEM,
+                  payload: product,
+                });
+              }}
+              type="button"
+              className="btn card__btn"
+            >
               <i className="ri-shopping-cart-2-fill card__icon"></i> Add to cart
             </button>
             <button

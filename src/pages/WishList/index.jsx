@@ -3,10 +3,13 @@ import React from "react";
 import "./index.less";
 import { price } from "utils/Filter/filterFunctions";
 import { WishlistAction } from "context/WishlistContext/WishlistActionTypes";
+import { useCart } from "context/CartContext/CartContext";
+import { cartActions } from "context/CartContext/CartActions";
 
 const Wishlist = () => {
   const { wishList, wishListDispatch } = useWishList();
   const { wishListItem } = wishList;
+  const { cartDispatch } = useCart();
 
   return (
     <main className="wishlist__main__container mt-2">
@@ -47,7 +50,20 @@ const Wishlist = () => {
               </p>
             </div>
             <div className="card__buttons">
-              <button type="button" className="btn card__btn">
+              <button
+                onClick={() => {
+                  cartDispatch({
+                    type: cartActions.ADD_ITEM,
+                    payload: product,
+                  });
+                  wishListDispatch({
+                    type: WishlistAction.REMOVE_ITEM,
+                    payload: product,
+                  });
+                }}
+                type="button"
+                className="btn card__btn"
+              >
                 <i className="ri-shopping-cart-2-fill card__icon"></i>Move to
                 cart
               </button>
